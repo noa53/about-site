@@ -1,7 +1,13 @@
-window.addEventListener('load', function() {
-    // ローディング画面を非表示にする
+document.addEventListener('DOMContentLoaded', function() {
     const loadingScreen = document.getElementById('loading');
     if (loadingScreen) {
-        loadingScreen.style.display = 'none'; // ローディング画面を隠す
+        loadingScreen.style.display = 'none';
+    }
+});
+
+window.addEventListener('load', function() {
+    const loadingScreen = document.getElementById('loading');
+    if (loadingScreen) {
+        loadingScreen.style.display = 'none';
     }
 });
