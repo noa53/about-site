@@ -14,8 +14,6 @@
     color: #333;
     z-index: 9999;
 }
-
-/* ローディングアニメーションのスタイル */
 .loading-spinner {
     border: 8px solid rgba(255, 255, 255, 0.1);
     border-top: 8px solid #333;
@@ -25,7 +23,6 @@
     animation: spin 1s linear infinite;
 }
 
-/* アニメーション */
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
